@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://egc5duc4b4hs"]
+
+[ext_resource type="Texture2D" uid="uid://n6t8myal6pqm" path="res://icon.svg" id="1_nkxo6"]
+
+[node name="coletavel" type="Node2D" unique_id=1822678439]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=832129241]
+modulate = Color(1, 1, 0.101960786, 1)
+texture = ExtResource("1_nkxo6")

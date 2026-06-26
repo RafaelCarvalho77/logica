@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://cmlmco3tcpro3"]
+
+[ext_resource type="Texture2D" uid="uid://n6t8myal6pqm" path="res://icon.svg" id="1_vp40w"]
+
+[node name="arma" type="Node2D" unique_id=830388463]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1453859358]
+modulate = Color(0, 1, 1, 1)
+texture = ExtResource("1_vp40w")

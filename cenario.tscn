@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://cp2snn6pyy8je"]
+
+[ext_resource type="PackedScene" uid="uid://b7uowslsowrr6" path="res://personagem.tscn" id="1_fqljg"]
+[ext_resource type="PackedScene" uid="uid://bq1ua5tma5nex" path="res://inimigo.tscn" id="2_xwuul"]
+
+[node name="Cenario" type="Node2D" unique_id=881249990]
+
+[node name="Personagem" parent="." unique_id=128887757 instance=ExtResource("1_fqljg")]
+
+[node name="inimigo" parent="." unique_id=1098129041 instance=ExtResource("2_xwuul")]
+position = Vector2(194, 0)

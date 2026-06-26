@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://bq1ua5tma5nex"]
+
+[ext_resource type="Texture2D" uid="uid://n6t8myal6pqm" path="res://icon.svg" id="1_on17v"]
+
+[node name="inimigo" type="Node2D" unique_id=1098129041]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1843115346]
+modulate = Color(0.7800377, 0, 0.044338964, 1)
+texture = ExtResource("1_on17v")
