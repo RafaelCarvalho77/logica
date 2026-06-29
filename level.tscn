@@ -1,20 +1,6 @@
 [gd_scene format=3 uid="uid://b453u53givt6j"]
 
-[ext_resource type="PackedScene" uid="uid://b7uowslsowrr6" path="res://personagem.tscn" id="1_0b4ue"]
-[ext_resource type="PackedScene" uid="uid://bq1ua5tma5nex" path="res://inimigo.tscn" id="2_f2txt"]
-[ext_resource type="PackedScene" uid="uid://egc5duc4b4hs" path="res://coletavel.tscn" id="3_1ainy"]
-[ext_resource type="PackedScene" uid="uid://cmlmco3tcpro3" path="res://arma.tscn" id="4_n6hdu"]
+[ext_resource type="Script" uid="uid://dpd17k0xanyl4" path="res://level.gd" id="1_u52ul"]
 
 [node name="level" type="Node2D" unique_id=851335674]
-
-[node name="Personagem" parent="." unique_id=128887757 instance=ExtResource("1_0b4ue")]
-position = Vector2(282, 319)
-
-[node name="inimigo" parent="." unique_id=1098129041 instance=ExtResource("2_f2txt")]
-position = Vector2(822, 313)
-
-[node name="coletavel" parent="." unique_id=1822678439 instance=ExtResource("3_1ainy")]
-position = Vector2(280, 103)
-
-[node name="arma" parent="." unique_id=830388463 instance=ExtResource("4_n6hdu")]
-position = Vector2(824, 118)
+script = ExtResource("1_u52ul")
